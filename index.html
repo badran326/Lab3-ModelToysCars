@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create Your Toy Car Collection</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/index.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Toy Car Factory</h1>
+
+    <section id="creator">
+        <h2>Create a New Toy Car</h2>
+
+        <div class="form-row">
+            <label>Make:</label>
+            <input id="make" value="Buick">
+        </div>
+        <div class="form-row">
+            <label>Model:</label>
+            <input id="model" value="GSX">
+        </div>
+        <div class="form-row">
+            <label>Year:</label>
+            <input id="year" type="number" value="1970">
+        </div>
+        <div class="form-row">
+            <label>Color:</label>
+            <input id="color" value="Copper/Bronze">
+        </div>
+        <div class="form-row">
+            <label>Scale:</label>
+            <input id="scale" value="1/64">
+        </div>
+        <div class="form-row">
+            <label>Length (in):</label>
+            <input id="length" type="number" value="3">
+        </div>
+        <div class="form-row">
+            <label>Body Material:</label>
+            <input id="body" value="Metal">
+        </div>
+        <div class="form-row">
+            <label>Chassis Material:</label>
+            <input id="chassis" value="Metal">
+        </div>
+        <div class="form-row">
+            <label>Tires:</label>
+            <input id="tires" value="Real Rubber">
+        </div>
+        <div class="form-row">
+            <label>Opening Hood:</label>
+            <input id="hood" type="checkbox" checked>
+        </div>
+        <div class="form-row">
+            <label>SKU:</label>
+            <input id="sku" value="RCSP027/24">
+        </div>
+        <div class="form-row">
+            <label>Transmission:</label>
+            <input id="trans" value="4-speed manual">
+        </div>
+        <div class="form-row">
+            <label>Horsepower:</label>
+            <input id="hp" type="number" value="350">
+        </div>
+        <div class="form-row">
+            <label>Torque:</label>
+            <input id="torque" type="number" value="510">
+        </div>
+        <div class="form-row">
+            <label>Secret Code:</label>
+            <input id="secret" value="TopSecret">
+        </div>
+
+        <button id="add-car-btn">Add Toy Car</button>
+    </section>
+
+    <h2>Your Toy Car Collection</h2>
+    <div id="collection"></div>
+</body>
+
+</html>
