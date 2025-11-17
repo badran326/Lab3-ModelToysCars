@@ -45,3 +45,33 @@ button {
 button:hover {
   background: #1f5fbf;
 }
+
+#collection {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.car-card {
+  background: white;
+  width: 250px;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 6px solid #2d89ef;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.car-card h3 {
+  margin-top: 0;
+}
+
+.car-card button {
+  background: #444;
+  margin-top: 10px;
+}
+
+.car-card button:hover {
+  background: #000;
+}
